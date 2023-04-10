@@ -64,7 +64,7 @@ ListaC* excluir(ListaC *l, int v){
         } while(p!=l && p->info!=v);
         if(p==l){ //primeiro elemento, para excluir devemos procurar o ultimo elemento e depois retornar p->prox
             px = p->prox;
-            if(px = l){
+            if(px == l){
                 free(px);
                 return NULL;
             } else{
@@ -83,6 +83,7 @@ ListaC* excluir(ListaC *l, int v){
     } else{
         printf("Lista vazia, não é possivel excluir!");
     }
+    return NULL;
 }
 
 ListaC* eliminar(ListaC *l){
@@ -99,27 +100,45 @@ ListaC* eliminar(ListaC *l){
     }
     else{
         printf("\nLista vazia!!!");
+        return NULL;
     }
 }
 
-ListaC* separaC(ListaC *l, int n){ //1 elemento só, normal
+ListaC* separaC(ListaC *l, int n){
 	ListaC *p = l;
 	ListaC *nova = NULL;
-	//Lista de um elemento só
+	//Verificação se a lista tiver somente 1 elemento
 	if (p->prox == l){
         printf("Lista de 1 elemento só");
         return l;
     }
-	//Se a lista for nula, resolvida!
+	//Verificação se a lista é nula
     if(p != NULL) {
-        //Se for uma lista "normal" ele começa
         do {
             p = p->prox;
         } while(p->prox!=l && p->info!=n);
         nova = p->prox;
         p->prox = l;
-        //falta fazer o ultimo nó do nova apontar pro primeiro nó dele
+//        if(p != NULL) {
+//        do {
+//            ant = p;
+//            p = p->prox;
+//        } while(p!=l && p->info!=n);
+//        nova = p;
+//        p = l;
+
+        //Excecoes, primeiro, ultimo, penultimo elemento.
         ListaC *comeconova = nova;
+        if(nova->prox == l){
+            nova = nova->prox;
+            return nova;
+        }
+        if(nova->prox == comeconova){
+            nova = nova->prox;
+            return nova;
+        }
+
+        //Bloco que faz o ultimo nó do nova apontar pro primeiro nó dele
         do {
             nova = nova->prox;
         } while (nova->prox!=l);
@@ -129,11 +148,6 @@ ListaC* separaC(ListaC *l, int n){ //1 elemento só, normal
         printf("Lista nula");
         return l;
     }
-
-
-
-
-
 }
 
 ListaC* concatenaC(ListaC* l1, ListaC* l2){
