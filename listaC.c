@@ -105,48 +105,51 @@ ListaC* eliminar(ListaC *l){
 }
 
 ListaC* separaC(ListaC *l, int n){
-	ListaC *p = l;
-	ListaC *nova = NULL;
-	//Verificação se a lista tiver somente 1 elemento
-	if (p->prox == l){
-        printf("Lista de 1 elemento só");
-        return l;
-    }
-	//Verificação se a lista é nula
-    if(p != NULL) {
-        do {
-            p = p->prox;
-        } while(p->prox!=l && p->info!=n);
-        nova = p->prox;
-        p->prox = l;
-//        if(p != NULL) {
-//        do {
-//            ant = p;
-//            p = p->prox;
-//        } while(p!=l && p->info!=n);
-//        nova = p;
-//        p = l;
+    ListaC *aux1=l, *aux2 = NULL, *aux3 = NULL;
+    //aux 1 = ponteiro para encontrar o local de separacao
+    //aux 2 = ponteiro para armazenar o proximo nó a partir da separação
+    //aux 3 = ponteiro para percorrer e encontrar o ultimo nó da lista separada
 
-        //Excecoes, primeiro, ultimo, penultimo elemento.
-        ListaC *comeconova = nova;
-        if(nova->prox == l){
-            nova = nova->prox;
-            return nova;
+    if(aux1->info == n){//Caso n for o primeiro elemento da lista
+        aux2 = aux1->prox; //recebe o primeiro elemento após a quebra
+        aux1->prox = aux1; //aux1 aponta pra ele mesmo
+        aux3 = aux2;
+        while(aux3->prox!=l){ //aux 3 encontrando o final
+            aux3 = aux3->prox;
         }
-        if(nova->prox == comeconova){
-            nova = nova->prox;
-            return nova;
-        }
+        aux3->prox = aux2; //faço o ultimo elemento da lista separada apontar para o inicio da lista separada
+        return aux2;
+    } else{ //Caso n não for igual o primeiro nó
+        do{
+            aux1 = aux1->prox;
+        }while(aux1!=l && aux1->info!=n);
+        //aux1->info = n
 
-        //Bloco que faz o ultimo nó do nova apontar pro primeiro nó dele
-        do {
-            nova = nova->prox;
-        } while (nova->prox!=l);
-        nova->prox = comeconova;
-        return comeconova;
-    } else {
-        printf("Lista nula");
-        return l;
+        if(aux1!=l){ //Encontrou n
+                if(aux1->prox!=l){ //Verificacao se o nó encontrado não é o ultimo nó da lista
+                    aux2 = aux1->prox; //primeiro da segunda lista
+                    aux1->prox = l; //faz o final da primeira lista apontar para o começo
+                    aux3 = aux2; //inicializa o ponteiro aux3 com a informacao de
+                    //aux2 (inicio da segunda lista)
+                    //para encontrar o final da segunda lista à fim de resolver a circularidade
+
+                    while(aux3->prox!=l){ //encontrar o final da segunda parte da lista separada
+                        aux3 = aux3->prox;
+                    }
+                    aux3->prox = aux2; //após encontrar o final da lista
+                    //fazer com que o ultimo nó aponte para o primeiro nó da segunda lista separada
+
+                    return aux2; // Retorna a segunda parte da lista separada
+                    //pois a primeira parte está referenciada por l1 na main
+
+                }else{ //Caso o nó para separação for o ultimo da lista
+                    printf("\n\nE o ultimo elemento, nao e possivel separar\n\n");
+                    return NULL;
+                }
+        }else{ //Nao encontrou n
+            printf("Nao foi possivel separar");
+            return 0;
+        }
     }
 }
 

@@ -17,7 +17,7 @@ int main(){
 	L1 = inserirI(L1,3);
 	L1 = inserirI(L1,2);
 	L1 = inserirI(L1,1);
-	L2 = separaC(L1,5);
+	L2 = separaC(L1,9);
 	imprimirC(L1);
 	imprimirC(L2);
 
