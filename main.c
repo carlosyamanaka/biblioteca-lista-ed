@@ -36,7 +36,7 @@ int main(){
 
     Ex2L3 = inicializaC();
     Ex2L3 = concatenaC(Ex2L1, Ex2L2);
-    imprimirC(Ex2L3);
+    imprimirC(Ex2L3);1;
 
     printf("\n\nExercicio 3:\n");
     ListaC *Ex3L1;
@@ -53,7 +53,7 @@ int main(){
 
     printf("\nExercicio 4:\n");
     ListaCF *Ex4L1 = NULL;
-    int n = 2;
+    int n = 4;
     Ex4L1 = inserirIF(Ex4L1, 4);
     Ex4L1 = inserirIF(Ex4L1, 3);
     Ex4L1 = inserirIF(Ex4L1, 2);

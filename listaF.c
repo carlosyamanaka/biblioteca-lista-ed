@@ -5,7 +5,7 @@
 
 //Funcao para retirar um numero n de elementos
 Listaf* retira_prefixo (Listaf *L1, int n){
-    Listaf *L2 = inicializa();
+    Listaf *L2 = inicializaC();
     Listaf *p = L1;
     int cont=0;
     //Verifica se a lista é nula

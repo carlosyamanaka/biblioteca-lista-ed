@@ -51,7 +51,6 @@ Lista* separa(Lista *l, int n){
         p->prox = NULL;
         return nova;
 	}
-
 }
 
 Lista* inserirComeco(Lista *L, int num){

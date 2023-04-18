@@ -26,6 +26,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="listaCF.h" />
+		<Unit filename="listaDE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaDE.h" />
 		<Unit filename="listaF.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -33,6 +37,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

@@ -6,14 +6,14 @@
 
 1680407295 c:\users\carlo\onedrive\Área de trabalho\biblioteca-lista-ed-main\lista.h
 
-1681089321 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\lista.c
+1681177052 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\lista.c
 	<stdio.h>
 	<stdlib.h>
 	"lista.h"
 
-1681089321 c:\users\aluno\desktop\biblioteca-lista-ed-main\lista.h
+1681177052 c:\users\aluno\desktop\biblioteca-lista-ed-main\lista.h
 
-1681165391 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\main.c
+1681779531 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\main.c
 	<stdio.h>
 	<stdlib.h>
 	"lista.h"
@@ -21,20 +21,20 @@
 	"listaF.h"
 	"listaCF.h"
 
-1681165378 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listac.c
+1681177052 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listac.c
 	<stdio.h>
 	<stdlib.h>
 	"listaC.h"
 
-1681089321 c:\users\aluno\desktop\biblioteca-lista-ed-main\listac.h
+1681177052 c:\users\aluno\desktop\biblioteca-lista-ed-main\listac.h
 
-1681089321 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listaf.c
+1681779443 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listaf.c
 	<stdio.h>
 	<stdlib.h>
 	"listaF.h"
 	"lista.h"
 
-1681089321 c:\users\aluno\desktop\biblioteca-lista-ed-main\listaf.h
+1681177052 c:\users\aluno\desktop\biblioteca-lista-ed-main\listaf.h
 
 1680797954 source:c:\users\carlo\onedrive\Área de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.c
 	<stdio.h>
@@ -140,11 +140,15 @@
 	"listaF.h"
 	"listaCF.h"
 
-1681089321 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listacf.c
+1681781834 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listacf.c
 	<stdio.h>
 	<stdlib.h>
 	"listaC.h"
 	"listaCF.h"
 
-1681089321 c:\users\aluno\desktop\biblioteca-lista-ed-main\listacf.h
+1681177052 c:\users\aluno\desktop\biblioteca-lista-ed-main\listacf.h
+
+1681782197 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listade.c
+	<stdio.h>
+	<stdlib.h>
 
