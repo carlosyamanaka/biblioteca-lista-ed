@@ -152,3 +152,57 @@
 	<stdio.h>
 	<stdlib.h>
 
+1681922467 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\lista.h
+
+1681233303 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listac.h
+
+1681233303 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listacf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+	"listaCF.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listacf.h
+
+1681927206 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listaf.h
+
+1681927604 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+	"listaCF.h"
+	"listaDE.h"
+	"listaDEF.h"
+
+1681926532 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listade.h
+
+1681926532 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listade.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDE.h"
+
+1681927577 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listadef.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDEF.h"
+
+1681927529 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listadef.h
+
