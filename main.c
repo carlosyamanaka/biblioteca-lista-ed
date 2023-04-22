@@ -51,12 +51,12 @@ int main(){
     imprime_recDE(Ex3L1);
 
     printf("\nExercicio 4:\n");
-    Lista2F *Ex4L1 = NULL;
-    int n = 4;
-    Ex4L1 = inserirIDEF(Ex4L1, 4);
-    Ex4L1 = inserirIDEF(Ex4L1, 3);
-    Ex4L1 = inserirIDEF(Ex4L1, 2);
-    Ex4L1 = inserirIDEF(Ex4L1, 1);
-    Ex4L1 = retira_prefixoDE(Ex4L1, n);
-    imprime_recDEF(Ex4L1);
+    ListaCF *Ex4L1 = NULL;
+    int n = 0;
+    Ex4L1 = inserirIF(Ex4L1, 4);
+    Ex4L1 = inserirIF(Ex4L1, 3);
+    Ex4L1 = inserirIF(Ex4L1, 2);
+    Ex4L1 = inserirIF(Ex4L1, 1);
+    Ex4L1 = retira_prefixoC(Ex4L1, n);
+    imprimirCF(Ex4L1);
 }

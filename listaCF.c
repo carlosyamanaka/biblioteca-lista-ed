@@ -47,16 +47,18 @@ ListaCF* retira_prefixoC (ListaCF *L1, int n){
     if(p==NULL){
         printf("Lista nula");
         return NULL;
-    } else{
-        //Enquanto o nó da lista nao for nulo e o numero de execucoes for menor que o numero pedido
+    }else if(n>=1){
         do {
             p = p->prox;
             cont++;
         } while(p->prox != L1 && cont<n);
+    } else{
+        printf("N menor que 1, funcao nao executada\n");
+        return L1;
     }
 
-    if(p==L1 && cont==n){
-        printf("numero de elementos para retirar maior que numero de elementos da lista");
+    if(p->prox==L1 && cont<=n){
+        printf("numero de elementos para retirar maior/igual que numero de elementos da lista");
         return NULL;
 	}
     retorno = p;

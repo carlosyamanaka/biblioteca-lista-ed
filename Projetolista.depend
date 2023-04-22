@@ -166,7 +166,7 @@
 
 1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listac.h
 
-1681233303 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listacf.c
+1682200290 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listacf.c
 	<stdio.h>
 	<stdlib.h>
 	"listaC.h"
@@ -182,7 +182,7 @@
 
 1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listaf.h
 
-1681927604 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\main.c
+1682200268 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\main.c
 	<stdio.h>
 	<stdlib.h>
 	"lista.h"
@@ -199,7 +199,7 @@
 	<stdlib.h>
 	"listaDE.h"
 
-1681927577 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listadef.c
+1681927710 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listadef.c
 	<stdio.h>
 	<stdlib.h>
 	"listaDEF.h"
