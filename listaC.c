@@ -186,3 +186,39 @@ ListaC* constroiC(int n, int* v){
     }
     return L;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ListaC* colocanofimC(ListaC *l, int n){
+    ListaC *p = l;
+    int cont = 1;
+    if(p == NULL){
+        printf("Lista nula, retornando lista sem alteracoes");
+        return l;
+    } else if(n>1){
+        do{
+            p = p->prox;
+            cont++;
+        }while(p!=l && cont < n);
+    } else if(n==1){
+        p = p->prox;
+        return p;
+    }else{
+        printf("Verifique se n é um valor maior que 0 e válido, retornando lista sem alteracoes");
+        return l;
+    }
+}

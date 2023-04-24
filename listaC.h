@@ -13,3 +13,4 @@ void imprimirC(ListaC* L);
 ListaC* separaC(ListaC *l, int n);
 ListaC* concatenaC(ListaC* l1, ListaC* l2);
 ListaC* constroiC(int n, int* v);
+ListaC* colocanofimC(ListaC *l, int n);

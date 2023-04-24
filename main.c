@@ -59,4 +59,14 @@ int main(){
     Ex4L1 = inserirIF(Ex4L1, 1);
     Ex4L1 = retira_prefixoC(Ex4L1, n);
     imprimirCF(Ex4L1);
+
+    printf("Digite o numero da posicao que deseja mover para o fim:\n");
+    int numeroparafim;
+    scanf("%d", &numeroparafim);
+    ListaC *EX3 = NULL;
+    EX3 = inserirI(EX3, 4);
+    EX3 = inserirI(EX3, 3);
+    EX3 = inserirI(EX3, 2);
+    EX3 = inserirI(EX3, 1);
+    EX3 = colocanofimC(EX3, numeroparafim);
 }
