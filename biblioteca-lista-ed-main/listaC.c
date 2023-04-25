@@ -45,7 +45,7 @@ void imprimirC(ListaC* L){
 	ListaC *p=L;
 	if (p!=NULL){
         do {
-            printf("[%d] -> ",p->info);
+            printf("[%x | %d] -> [%x]\n",p, p->info, p->prox);
             p = p->prox;
         } while(p!= L);
 	}
@@ -187,57 +187,44 @@ ListaC* constroiC(int n, int* v){
     return L;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //Dado o nó do retire o nó e coloque no final da lista
 ListaC* colocanofimC(ListaC *l, int n){
-    ListaC *p = l;
+    ListaC *p = l, *ant = NULL;
     int cont = 1;
     if(p == NULL){
-        printf("Lista nula, retornando lista sem alteracoes");
+        printf("Lista nula, retornando lista sem alteracoes\n");
         return l;
     } else if(n>1){
         do{
+            ant = p;
             p = p->prox;
             cont++;
-        }while(p->prox!=l && cont < n);
+        }while(p!=l && cont < n);
     } else if(n==1){
         p = p->prox;
         return p;
     }else{
-        printf("Verifique se n é um valor maior que 0 e válido, retornando lista sem alteracoes");
+        printf("Verifique se n eh um valor maior que 0 e valido, retornando lista sem alteracoes\n");
         return l;
     }
-    ListaC *elemento = (ListaC*)malloc(sizeof(ListaC));
-    elemento->info = p->prox->info;
-    ListaC *aux = p;
-    aux = aux->prox;
-    if(aux!= l){
-        aux = aux->prox;
-        p->prox = aux;
-        while(p->prox!=l){
-            p = p->prox;
-        }
-        p->prox = elemento;
-        elemento->prox = l;
-        return l;
-    } else{ //Elemento escolhido é o ultimo
-        return l;
-    }
+    ListaC *proximo = p->prox;
+    ant->prox = proximo;
 
+    ListaC *novo, *p1=l;
+    novo = (ListaC*)malloc(sizeof(ListaC));
+    novo->info = p->info;
+    if(l!=NULL){
+        novo->prox = l;
+        while(p1->prox!=l){
+            p1 = p1->prox;
+        }
+        p1->prox = novo;
+        return l;
+    }
+    else{
+        novo->prox = novo;
+        return novo;
+    }
 }
 
 

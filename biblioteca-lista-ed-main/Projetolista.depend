@@ -218,3 +218,57 @@
 
 1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\listadef.h
 
+1682391641 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1682391641 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\lista.h
+
+1682393300 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1682391641 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listac.h
+
+1682391641 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listacf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+	"listaCF.h"
+
+1682391641 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listacf.h
+
+1682391641 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listade.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDE.h"
+
+1682391641 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listade.h
+
+1682391641 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listadef.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDEF.h"
+
+1682391641 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listadef.h
+
+1682391642 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1682391642 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\listaf.h
+
+1682392049 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\biblioteca-lista-ed-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+	"listaCF.h"
+	"listaDE.h"
+	"listaDEF.h"
+

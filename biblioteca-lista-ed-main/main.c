@@ -60,8 +60,8 @@ int main(){
     Ex4L1 = retira_prefixoC(Ex4L1, n);
     imprimirCF(Ex4L1);
 
-    printf("Digite o numero da posicao que deseja mover para o fim:\n");
     int numeroparafim;
+    printf("Digite o numero da posicao que deseja mover para o fim:");
     scanf("%d", &numeroparafim);
     ListaC *EX3 = NULL;
     EX3 = inserirI(EX3, 4);
