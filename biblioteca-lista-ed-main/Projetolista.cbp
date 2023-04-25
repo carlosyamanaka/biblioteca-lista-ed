@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projeto1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Projetolista" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="ListaDEF.h" />
+		<Unit filename="lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista.h">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaC.h" />
+		<Unit filename="listaCF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaCF.h" />
+		<Unit filename="listaDE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaDE.h" />
+		<Unit filename="listaDEF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="listaF.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

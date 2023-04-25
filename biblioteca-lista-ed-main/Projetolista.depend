@@ -1,0 +1,220 @@
+# depslib dependency file v1.0
+1680407295 source:c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1680407295 c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\lista.h
+
+1682374541 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\lista.h
+
+1682377310 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+	"listaCF.h"
+	"listaDE.h"
+	"listaDEF.h"
+
+1682380946 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\listac.h
+
+1682374541 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\listaf.h
+
+1680797954 source:c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1680797954 c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.h
+
+1680797954 source:c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1680797954 c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listaf.h
+
+1680811632 source:c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+
+1680809166 c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listac.h
+
+1680814633 source:c:\users\carlo\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1680966307 source:c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1680962388 c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.h
+
+1680967370 source:c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1680962388 c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listac.h
+
+1680962388 source:c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1680962388 c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listaf.h
+
+1680967029 source:c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+
+1680967011 source:c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listacf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+	"listaCF.h"
+
+1680963576 c:\users\marco\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listacf.h
+
+1680978083 source:c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1680978083 c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\lista.h
+
+1681089225 source:c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1680978083 c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listac.h
+
+1680978083 source:c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listacf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+	"listaCF.h"
+
+1680978083 c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listacf.h
+
+1680978083 source:c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1680978083 c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\listaf.h
+
+1681088902 source:c:\users\sergio\onedrive\햞ea de trabalho\biblioteca-lista-ed-main\biblioteca-lista-ed-main\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+	"listaCF.h"
+
+1682374541 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listacf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+	"listaCF.h"
+
+1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\listacf.h
+
+1682374541 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listade.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDE.h"
+
+1681922467 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\lista.h
+
+1682374247 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listac.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+
+1682374232 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listac.h
+
+1682200339 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listacf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaC.h"
+	"listaCF.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listacf.h
+
+1681927206 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listaf.c
+	<stdio.h>
+	<stdlib.h>
+	"listaF.h"
+	"lista.h"
+
+1681233303 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listaf.h
+
+1682374477 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+	"listaC.h"
+	"listaF.h"
+	"listaCF.h"
+	"listaDE.h"
+	"listaDEF.h"
+
+1681926532 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listade.h
+
+1681926532 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listade.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDE.h"
+
+1681927710 source:c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listadef.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDEF.h"
+
+1681927529 c:\users\carlo\onedrive\documentos\github\biblioteca-lista-ed\listadef.h
+
+1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\listade.h
+
+1682374541 source:c:\users\aluno\desktop\biblioteca-lista-ed-main\listadef.c
+	<stdio.h>
+	<stdlib.h>
+	"listaDEF.h"
+
+1682374541 c:\users\aluno\desktop\biblioteca-lista-ed-main\listadef.h
+
